@@ -1,18 +1,41 @@
 {{ if gt .Paginator.TotalPages 1 }}
- 
-<nav class="cf pa3">
-    {{ if .Paginator.HasNext }}
-    <a class="fl dib link dim black f6 f5-ns b pa2" title="Next Page" href="{{ .Paginator.Next.URL }}">
-        &larr; Previous
-    </a>
-    {{ end }}
-    <div class="pagination">
-        {{ if .Paginator.HasPrev }}
-        <a class="fl dib link dim black f6 f5-ns b pa2" title="Previous Page" href="{{ .Paginator.Prev.URL }}">
-            Next &rarr;
-        </a>
-        {{ end }}
-    </div>
-</nav>
- 
+
+
+<div class="mt-6">
+    <section class="py-5">
+      <div class="container">
+        <nav aria-label="Page navigation example">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center align-items-center">
+
+                {{ if .Paginator.HasNext }}
+                <li class="page-item"><a class="page-link" href="{{ .Paginator.Next.URL }}">
+                    <i class="fa fa-arrow-left mr-1" aria-hidden="true"></i>
+                    Prev
+                </a>
+                </li>
+                {{ end }}
+
+
+
+                <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0)">...</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0)">15</a></li>
+                {{ if .Paginator.HasPrev }}
+                <li class="page-item"><a class="page-link" href="{{ .Paginator.Prev.URL }}">
+                    Next <i class="fa fa-arrow-right ml-1" aria-hidden="true"></i>
+                </a>
+                </li>
+                {{ end }}
+
+
+                </ul>
+          </nav>      
+        </nav>
+      </div>
+    </section>
+</div>
+
 {{ end }}

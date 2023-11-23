@@ -1,19 +1,21 @@
-<div class="bg-off-white pv4">
-	<div class="ph3 mw7 center">
+<section class="pt-9 pb-7" id="blog">
+	<div class="container">
+	  <div class="section-title justify-content-center mb-4 mb-md-8 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+		<span class="shape shape-left bg-info"></span>
+		<h2 class="text-danger">お知らせ</h2>
+		<span class="shape shape-right bg-info"></span>
+	  </div>
+  
+	  <div class="row wow fadeInUp" style="visibility: hidden; animation-name: none;">
+		{{ range first 3 (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
+			<div class="col-md-4">
+				{{ .Render "blog-card" }}
+			</div>
+		{{ end }}
 
-		<h2 class="f2 b lh-title mb3">Latest stories</h2>
-
-		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 4 (where .Data.Pages "Type" "post") }}
-				<div class="ph1-ns w-50-ns flex">
-					{{ .Render "li" }}
-				</div>
-			{{ end }}
-		</div>
-
-		<div class="tc">
-			<a href="/post" class="btn raise">Read more</a>
-		</div>
-
+	  </div>
+	  <div class="btn-aria text-center mt-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+			  <a href="/post" class="btn btn-danger text-uppercase">View More</a>
+		  </div>
 	</div>
-</div>
+</section>

@@ -1,0 +1,21 @@
+<div class="card">
+	<div class="position-relative">
+		<a href="{{ .RelPermalink }}">
+			{{ if .Params.image }}<img class="card-img-top lazyestload" data-src="{{ .Params.image }}" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+			
+		</a>
+		<div class="card-img-overlay p-0">
+			<span class="badge badge-rounded bg-primary m-4">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+		</div>
+	</div>
+
+	<div class="card-body border-top-5 px-3 border-primary">
+		<h3 class="card-title">
+			<a class="text-primary d-block text-truncate" href="{{ .RelPermalink }}">{{ .Title }}</a>
+		</h3>
+		<p class="mb-2">{{ .Description }}</p>
+		<a class="btn btn-link text-hover-warning ps-0" href="{{ .RelPermalink }}">
+			<i class="fas fa-angle-double-right me-1" aria-hidden="true"></i> Read More
+		</a>
+	</div>
+</div>

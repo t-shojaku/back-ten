@@ -1,51 +1,141 @@
-<footer class="bg-black ph3 pv4 white">
-
-	<div class="mw7 center pt3">
-
-		<div class="measure-narrow center mb4">
-
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
-			<p>{{ .Site.Data.footer.blurb }}</p>
-
-			{{ partial "newsletter-form" . }}
-
+<footer class="footer-bg-img">
+	<!-- Footer Color Bar -->
+	<div class="color-bar">
+	  <div class="container-fluid">
+		<div class="row">
+		  <div class="col color-bar bg-warning"></div>
+		  <div class="col color-bar bg-danger"></div>
+		  <div class="col color-bar bg-success"></div>
+		  <div class="col color-bar bg-info"></div>
+		  <div class="col color-bar bg-purple"></div>
+		  <div class="col color-bar bg-pink"></div>
+		  <div class="col color-bar bg-warning d-none d-md-block"></div>
+		  <div class="col color-bar bg-danger d-none d-md-block"></div>
+		  <div class="col color-bar bg-success d-none d-md-block"></div>
+		  <div class="col color-bar bg-info d-none d-md-block"></div>
+		  <div class="col color-bar bg-purple d-none d-md-block"></div>
+		  <div class="col color-bar bg-pink d-none d-md-block"></div>
 		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule an appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Kaldi on Instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Kaldi on Vimeo") }}
-				</ul>
-			</div>
-
-		</div>
+	  </div>
 	</div>
-
-</footer>
+  
+	<div class="pt-8 pb-7  bg-repeat" style="background-image: url(/img/footer-bg-img.png);">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-sm-6 col-lg-3 col-xs-12">
+			<a class="mb-6 d-block" href="/">
+			  <img class="img-fluid d-inline-block w-50" data-src="assets/img/logo-footer.png" src="assets/img/logo-footer.png">
+			</a>
+			<p class="mb-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa officia.Lorem ipsum dolor sit
+			  amet.</p>
+			<p class="mb-6">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+			  aliqua.</p>
+		  </div>
+  
+		  <div class="col-sm-6 col-lg-3 col-xs-12">
+			<h4 class="section-title-sm font-weight-bold text-white mb-6">Useful Links</h4>
+			<ul class="list-unstyled">
+			  <li class="mb-4">
+				<a href="/">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>{{ .Site.Data.footer.title }}
+				</a>
+			  </li>
+			  <li class="mb-4">
+				<a href="about-us.html">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>About Kidz School
+				</a>
+			  </li>
+			  <li class="mb-4">
+				<a href="/faqs">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>よくあるご質問
+				</a>
+			  </li>
+			  <li class="mb-4">
+				<a href="index-v3.html">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>Kidz Daycare
+				</a>
+			  </li>
+			  <li class="mb-3">
+				<a href="photo-gallery.html">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>
+				  Photo Gallery
+				</a>
+			  </li>
+			</ul>
+		  </div>
+  
+		  <div class="col-sm-6 col-lg-3 col-xs-12">
+			<h4 class="section-title-sm font-weight-bold text-white mb-6">Recent Post</h4>
+			<ul class="list-unstyled list-item-border-bottom">
+			  <li class="mb-4 pb-4">
+				<div class="media">
+				  <a class="me-2" href="blog-single-left-sidebar.html">
+					<img class="rounded-lg w-100 border-primary border-2 d-block" data-src="assets/img/blog/blog-sm-img5.jpg" src="assets/img/blog/blog-sm-img5.jpg" alt="blog-sm-img5.jpg">
+				  </a>
+				  <div class="media-body">
+					<h5 class="line-hight-16 mb-1">
+					  <a class="font-base font-size-14" href="blog-single-left-sidebar.html">A Clean Website Gives More Experience To The
+						Visitors</a>
+					</h5>
+					<time class="text-white">July 7 - 2020</time>
+				  </div>
+				</div>
+			  </li>
+  
+			  <li class="mb-4 pb-4">
+				<div class="media">
+				  <a class="me-2" href="blog-single-left-sidebar.html">
+					<img class="rounded-lg w-100 border-success border-2 d-block" data-src="assets/img/blog/blog-sm-img-12.jpg" src="assets/img/blog/blog-sm-img-12.jpg" alt="blog-sm-img-12.jpg">
+				  </a>
+				  <div class="media-body">
+					<h5 class="line-hight-16 mb-1">
+					  <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Duis aute irure dolor in reprehenderit
+						in voluptate.</a>
+					</h5>
+					<time class="text-white">Jun 7 - 2020</time>
+				  </div>
+				</div>
+			  </li>
+  
+			  <li class="mb-4 pb-4">
+				<div class="media">
+				  <a class="me-2" href="blog-single-left-sidebar.html">
+					<img class="rounded-lg w-100 border-info border-2 d-block" data-src="assets/img/blog/blog-sm-img7.jpg" src="assets/img/blog/blog-sm-img7.jpg" alt="blog-sm-img7.jpg">
+				  </a>
+				  <div class="media-body">
+					<h5 class="line-hight-16 mb-1">
+					  <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Duis aute irure dolor in reprehenderit
+						in voluptate.</a>
+					</h5>
+					<time class="text-white">Jun 7 - 2020</time>
+				  </div>
+				</div>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  
+	<!-- Copy Right -->
+	<div class="copyright">
+	  <div class="container">
+		<div class="row py-4 align-items-center">
+		  <div class="col-sm-7 col-xs-12 order-1 order-md-0">
+			<p class="copyright-text"> © <span id="copy-year">2023</span> Copyright {{ .Site.Data.footer.title }}</p>
+		  </div>
+  
+		  <div class="col-sm-5 col-xs-12">
+			<ul class="list-inline d-flex align-items-center justify-content-md-end justify-content-center mb-md-0">
+				{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
+				{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
+				{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Kaldi on Instagram") }}
+				{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Kaldi on Vimeo") }}
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </footer>
 
 {{ partial "svg" . }}

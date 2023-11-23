@@ -2,6 +2,9 @@
 
   <title>{{ .Title }} | {{ $.Site.Title }}</title>
 
+  <link href="/plugins/fontawesome-5.15.2/css/all.min.css" rel="stylesheet">
+  <link href="/plugins/fontawesome-5.15.2/css/fontawesome.min.css" rel="stylesheet">
+  <link href="/plugins/animate/animate.css" rel="stylesheet">
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
     <link href="{{ relURL . }}" rel="stylesheet">
@@ -13,7 +16,7 @@
   <base href="{{ $.Site.BaseURL }}">
 
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-
+  
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">

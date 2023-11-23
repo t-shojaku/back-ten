@@ -1,0 +1,17 @@
+/* Background Parallax */
+.bg-parallax {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Background Repeat */
+.bg-repeat {
+  background-repeat: repeat;
+}
+
+/* Hr */
+hr {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .1);
+}

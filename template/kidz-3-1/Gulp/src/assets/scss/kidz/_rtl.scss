@@ -1,0 +1,27 @@
+// Custom RTL
+html[dir="rtl"] {
+  .navbar-nav .dropdown .dropdown-menu .dropdown-item i {
+    transform: translateY(-50%) rotate(180deg);
+  }
+   
+  .owl-nav i {
+    transform: rotate(180deg);
+  }
+  .team-slider .card .card-img-wrapper .card-img-overlay .list-unstyled {
+    padding-right: 0 !important;
+  }
+
+  .noUi-horizontal .noUi-handle {
+    right: 0;
+  }
+
+  .noUi-horizontal .noUi-handle.noUi-handle-lower {
+    left: -15px;
+    right: auto;
+  }
+
+  .noUi-horizontal .noUi-handle.noUi-handle-upper {
+    left: 0;
+    right: auto;
+  }
+}

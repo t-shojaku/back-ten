@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://localhost:3000/"
 languageCode = "ja"
 languageLang = "ja"
 title = "錦糸町キッズバク転教室！"

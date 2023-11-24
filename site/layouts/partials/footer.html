@@ -22,14 +22,18 @@
 	<div class="pt-8 pb-7  bg-repeat" style="background-image: url(/img/footer-bg-img.png);">
 	  <div class="container">
 		<div class="row">
-		  <div class="col-sm-6 col-lg-3 col-xs-12">
+		  <div class="col-sm-6 col-lg-6 col-xs-12">
 			<a class="mb-6 d-block" href="/">
-			  <img class="img-fluid d-inline-block w-50" data-src="assets/img/logo-footer.png" src="assets/img/logo-footer.png">
+				{{ $.Site.Title }}
 			</a>
-			<p class="mb-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa officia.Lorem ipsum dolor sit
-			  amet.</p>
-			<p class="mb-6">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-			  aliqua.</p>
+			<p class="mb-6">〒130-0021<br>東京都墨田区緑4丁目34-1</p>
+			<p class="mb-6">
+				■JR総武線　錦糸町駅（南口）<br>
+				■地下鉄半蔵門線　錦糸町駅（南口方面出入り口１）徒歩7分<br>
+				■都営バス<br>
+				系統 両28、 錦27：「緑3丁目」から0分、「江東橋」から3分<br>
+				系統 業10：「緑3丁目」から2分
+			</p>
 		  </div>
   
 		  <div class="col-sm-6 col-lg-3 col-xs-12">
@@ -37,12 +41,12 @@
 			<ul class="list-unstyled">
 			  <li class="mb-4">
 				<a href="/">
-				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>{{ .Site.Data.footer.title }}
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>{{ $.Site.Title }}
 				</a>
 			  </li>
 			  <li class="mb-4">
-				<a href="about-us.html">
-				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>About Kidz School
+				<a href="/post">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>お知らせ
 				</a>
 			  </li>
 			  <li class="mb-4">
@@ -51,66 +55,35 @@
 				</a>
 			  </li>
 			  <li class="mb-4">
-				<a href="index-v3.html">
-				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>Kidz Daycare
+				<a href="/contact">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>お問合せ
 				</a>
 			  </li>
-			  <li class="mb-3">
-				<a href="photo-gallery.html">
-				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>
-				  Photo Gallery
+			  <li class="mb-4">
+				<a href="/privacy">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>プライバシーポリシー
 				</a>
 			  </li>
+
 			</ul>
 		  </div>
   
 		  <div class="col-sm-6 col-lg-3 col-xs-12">
-			<h4 class="section-title-sm font-weight-bold text-white mb-6">Recent Post</h4>
+			<h4 class="section-title-sm font-weight-bold text-white mb-6">お知らせ</h4>
 			<ul class="list-unstyled list-item-border-bottom">
-			  <li class="mb-4 pb-4">
-				<div class="media">
-				  <a class="me-2" href="blog-single-left-sidebar.html">
-					<img class="rounded-lg w-100 border-primary border-2 d-block" data-src="assets/img/blog/blog-sm-img5.jpg" src="assets/img/blog/blog-sm-img5.jpg" alt="blog-sm-img5.jpg">
-				  </a>
-				  <div class="media-body">
-					<h5 class="line-hight-16 mb-1">
-					  <a class="font-base font-size-14" href="blog-single-left-sidebar.html">A Clean Website Gives More Experience To The
-						Visitors</a>
-					</h5>
-					<time class="text-white">July 7 - 2020</time>
-				  </div>
-				</div>
-			  </li>
-  
-			  <li class="mb-4 pb-4">
-				<div class="media">
-				  <a class="me-2" href="blog-single-left-sidebar.html">
-					<img class="rounded-lg w-100 border-success border-2 d-block" data-src="assets/img/blog/blog-sm-img-12.jpg" src="assets/img/blog/blog-sm-img-12.jpg" alt="blog-sm-img-12.jpg">
-				  </a>
-				  <div class="media-body">
-					<h5 class="line-hight-16 mb-1">
-					  <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Duis aute irure dolor in reprehenderit
-						in voluptate.</a>
-					</h5>
-					<time class="text-white">Jun 7 - 2020</time>
-				  </div>
-				</div>
-			  </li>
-  
-			  <li class="mb-4 pb-4">
-				<div class="media">
-				  <a class="me-2" href="blog-single-left-sidebar.html">
-					<img class="rounded-lg w-100 border-info border-2 d-block" data-src="assets/img/blog/blog-sm-img7.jpg" src="assets/img/blog/blog-sm-img7.jpg" alt="blog-sm-img7.jpg">
-				  </a>
-				  <div class="media-body">
-					<h5 class="line-hight-16 mb-1">
-					  <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Duis aute irure dolor in reprehenderit
-						in voluptate.</a>
-					</h5>
-					<time class="text-white">Jun 7 - 2020</time>
-				  </div>
-				</div>
-			  </li>
+				{{ range first 3 (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
+				<li class="mb-4 pb-4">
+					<div class="media">
+						<div class="media-body">
+						<h5 class="line-hight-16 mb-1">
+							<a class="font-base font-size-14" href="{{ .RelPermalink }}">{{ .Title }}</a>
+						</h5>
+						<time class="text-white">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+						</div>
+					</div>
+				</li>
+
+				{{ end }}
 			</ul>
 		  </div>
 		</div>
@@ -122,15 +95,14 @@
 	  <div class="container">
 		<div class="row py-4 align-items-center">
 		  <div class="col-sm-7 col-xs-12 order-1 order-md-0">
-			<p class="copyright-text"> © <span id="copy-year">2023</span> Copyright {{ .Site.Data.footer.title }}</p>
+			<p class="copyright-text"> © <span id="copy-year">2023</span> Copyright {{ $.Site.Title }}</p>
 		  </div>
   
 		  <div class="col-sm-5 col-xs-12">
 			<ul class="list-inline d-flex align-items-center justify-content-md-end justify-content-center mb-md-0">
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Kaldi on Instagram") }}
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Kaldi on Vimeo") }}
+				{{ partial "social-icon" (dict "link" "https://twitter.com/kids_backten" "svg" "icons-twitter" "alt" "錦糸町キッズバク転教室！ on Twitter") }}
+				{{ partial "social-icon" (dict "link" "https://www.instagram.com/byun_to_kids" "svg" "icons-instagram" "alt" "びゅんとキッズ！ on Instagram") }}
+				{{ partial "social-icon" (dict "link" "https://www.youtube.com/@byun_to_kids" "svg" "icons-youtube" "alt" "びゅんとキッズ！ on Youtube") }}
 			</ul>
 		  </div>
 		</div>

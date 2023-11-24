@@ -1,24 +1,45 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
-
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
+<section class="py-8 py-md-10">
+	<div class="container">
+	  	<div class="mb-9">
+			<div class="row">
+				{{ range .Params.contact_entries }}
+				<div class="col-sm-4 col-xs-12">
+					<div class="media flex-md-column flex-lg-row mb-4">
+					<div class="icon-rounded-circle-large shadow-sm mb-md-2 me-md-0 me-2 me-lg-2 bg-primary">
+						<i class="{{ .icon }} text-white" aria-hidden="true"></i>
+					</div>
+					<div class="media-body">
+						<h3 class="media-heading text-primary mt-0 font-weight-bold mb-3">{{ .heading }}:</h3>
+						<p class="text-muted font-weight-medium">{{ .text }}</p>
+					</div>
+					</div>
 				</div>
-			{{ end }}
+				{{ end }}
+
+			</div>
 		</div>
+		<p>この度はバク転教室にご興味をいただきありがとうございます。<br>初回体験レッスンの予約方法はフォームと予約サイトからの２種類あります。</p>
+
+		<h3>1）フォームから予約する場合</h3>
+		
+		<p>下記のフォームからご希望の日時をお知らせください。 空いている枠を確認後、折返しご連絡さしあげます。<br>
+		
+		お支払いは現金もしくはPaypayがご利用いただけます。ご希望の場合は事前にクレジットでの決済も可能ですので、その旨お申し付けください。<br>
+		予約ではなく、ご質問だけでも大丈夫です。お気軽にご質問ください。</p>
+		<!--<div class="mb-10" id="map" style="width: 100%; height: 420px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" alt="" draggable="false" style="user-select: none;"></div><div class="gm-err-title">エラーが発生しました。</div><div class="gm-err-message">このページでは Google マップが正しく読み込まれませんでした。JavaScript コンソールで技術情報をご確認ください。</div></div></div></div></div>-->
 
 		{{ partial "contact-form" . }}
 
+		<h3>2） 予約サイトから予約する場合</h3>
+		<p>予約サイトから予約すると、カレンダーで空き枠が見られ、スムーズに予約ができます。また、２回目以降は予約サイトから予約いただくので、先に登録していただくと楽です。<br>
+				予約は、教室施設をお借りしているホイス・グレイシー柔術アカデミー東京のウェブサイトでできます。<br>
+				下記ボタンからアカウントを作成していただき、「スケジュール＆予約」ページで空いている枠を予約してください。（フィルター機能で「錦糸町キッズバク転教室」を選ぶと楽に探せます）。<br>
+				お支払い時にクーポン「bakuten1」を適用すると初回割引が受けられます。
+		</p>
+		<a class="btn btn-primary btn-lg mb-2" href="https://www.rgjjtokyo.com/" target="_blank">予約サイトはこちら</a>
 	</div>
-</div>
+</section>
 
 {{ end }}

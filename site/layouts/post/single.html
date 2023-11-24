@@ -1,15 +1,60 @@
 {{ define "main" }}
 
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
-    </div>
-  </div>
-{{ end }}
+<section class="py-8 py-md-10">
+	<div class="container">
+		<div class="card">
+			<div class="position-relative">
+        {{ if .Params.image }}<img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+				<div class="card-img-overlay">
+          <span class="badge badge-rounded bg-primary">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+        </div>
+			</div>
+			<div class="card-body border-top-5 px-3 rounded-bottom border-primary">
+				<h1 class="card-title text-primary mb-5">{{.Title}}</h1>
+				<ul class="list-unstyled d-flex mb-5">
+					<li class="">
+						<a class="text-muted d-inline-block me-3" href="#user"><i class="fa fa-user me-2" aria-hidden="true"></i>Read in {{ .ReadingTime }} minutes</a>
+					</li>
+				</ul>
+
+				<p class="card-text text-justify mb-6">{{ .Description }}</p>
+        
+
+        {{ .Content }}
+				
+
+				<div class="">
+					<ul class="list-inline d-flex mb-0">
+		        <li class="me-2">
+		          <a class="icon-rounded-circle-small bg-primary" href="javascript:void(0)">
+		            <i class="fab fa-facebook-f text-white" aria-hidden="true"></i>
+		          </a>
+		        </li>
+		        <li class="mx-2">
+		          <a class="icon-rounded-circle-small bg-danger" href="javascript:void(0)">
+		            <i class="fab fa-twitter text-white" aria-hidden="true"></i>
+		          </a>
+		        </li>
+		        <li class="mx-2">
+		          <a class="icon-rounded-circle-small bg-success" href="javascript:void(0)">
+		            <i class="fab fa-google-plus-g text-white" aria-hidden="true"></i>
+		          </a>
+		        </li>
+		        <li class="mx-2">
+		          <a class="icon-rounded-circle-small bg-info" href="javascript:void(0)">
+		            <i class="fab fa-pinterest-p text-white" aria-hidden="true"></i>
+		          </a>
+		        </li>
+		        <li class="ms-2">
+		          <a class="icon-rounded-circle-small bg-purple" href="javascript:void(0)">
+		            <i class="fab fa-vimeo-v text-white" aria-hidden="true"></i>
+		          </a>
+		        </li>
+		      </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+  {{ end }}

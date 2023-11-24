@@ -1,33 +1,73 @@
 <!-- Contact -->
-<div class="mb4">
-  <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4>
+  <form action="" class="mb-8">
+    <div class="row mb-6">
+      <div class="col-sm-6 col-xs-12">
+			  <div class="form-group form-group-icon">
+				<i class="fa fa-user"></i>
+				<input type="text" class="form-control border-primary" placeholder="お子様のお名前" required="">
+			  </div>
+			</div>
+      <div class="col-sm-6 col-xs-12">
+			  <div class="form-group form-group-icon">
+				<i class="fa fa-user"></i>
+				<input type="text" class="form-control border-primary" placeholder="お子様のお名前（ふりがな）" required="">
+			  </div>
+			</div>
 
-  <form action="">
-    <div class="flex-l mhn1-l">
-      <!-- Name -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2">
-          <label for="name">Name</label>
-        </fieldset>
-      </div>
-      <!-- Email -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2">
-          <label for="email">Email</label>
-        </fieldset>
+      <div class="col-sm-6 col-xs-12">
+			  <div class="form-group form-group-icon">
+				<i class="fa fa-calendar"></i>
+				<input type="text" class="form-control border-primary" placeholder="お子様の生年月日" required="">
+			  </div>
+			</div>
+
+      <div class="col-sm-6 col-xs-12">
+			  <div class="form-group form-group-icon">
+				<i class="fa fa-user"></i>
+				<input type="text" class="form-control border-primary" placeholder="保護者様のお名前" required="">
+			  </div>
+			</div>
+
+			<div class="col-sm-6 col-xs-12">
+			  <div class="form-group form-group-icon">
+				<i class="fa fa-envelope"></i>
+				<input type="email" class="form-control border-success" placeholder="メールアドレス" required="">
+			  </div>
+			</div>
+      <div class="col-sm-6 col-xs-12">
+			  <div class="form-group form-group-icon">
+				<i class="fas fa-phone-alt"></i>
+				<input type="text" class="form-control border-purple" placeholder="ご連絡先" required="">
+			  </div>
+			</div>
+
+			<div class="col-12">
+			  <div class="form-group form-group-icon">
+				<i class="fa fa-comments"></i>
+				<textarea class="form-control border-info" placeholder="体験希望日（第３希望までお書きください）" rows="6"></textarea>
+			  </div>
+			</div>
+  
+			<div class="col-12">
+			  <div class="text-sm-center mt-6">
+				<button type="submit" class="btn btn-danger text-uppercase">
+				  送信する
+				</button>
+			  </div>
+			</div>
+
+    </div>
+    <div class="alert alert-warning d-flex align-items-center alert-dismissible fade show" role="alert">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="warning:">
+        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+      </svg>
+
+      <div>
+        <a href="/privacy">プライバシーポリシー</a>をお読みの上、同意して送信して下さい。<br>
+        折返しの連絡のため「back-ten.com」からのメールが迷惑メールに入らないようホワイトリストに登録してください。
       </div>
     </div>
 
-    <!-- Message -->
-    <fieldset>
-      <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="w-100"></textarea>
-      <label for="message">Your message</label>
-    </fieldset>
-    <!-- Button -->
-    <div class="tc">
-      <button type="submit" class="btn w-100 w-auto-ns raise">Submit</button>
-    </div>
+
   </form>
-</div>
+

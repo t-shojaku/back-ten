@@ -1,4 +1,9 @@
-@media (min-width: 768px){
+@media (max-width: 1200px){
+  .fs-5{
+    font-size: 0.8rem !important;
+  }
+}
+@media (min-width: 992px){
   .col-sm-x {
     flex: 0 0 auto;
     width: 20%;

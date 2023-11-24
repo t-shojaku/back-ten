@@ -1,19 +1,22 @@
 ---
-title: "Contact"
+title: "お問い合わせ"
 logo: "/img/logo.svg"
 contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: 所在地
+    text: "〒130-0021 東京都墨田区緑4丁目34−1"
+    icon: "fas fa-map-marker-alt"
+  - heading: 営業日
+    text: "水曜17時18時　土曜15時16時　祝日休"
+    icon: "far fa-calendar-alt"
 ---
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
+この度はバク転教室にご興味をいただきありがとうございます。
+初回体験レッスンの予約方法はフォームと予約サイトからの２種類あります。
 
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
+1）フォームから予約する場合
 
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+下記のフォームからご希望の日時をお知らせください。
+空いている枠を確認後、折返しご連絡さしあげます。
+
+お支払いは現金もしくはPaypayがご利用いただけます。ご希望の場合は事前にクレジットでの決済も可能ですので、その旨お申し付けください。
+予約ではなく、ご質問だけでも大丈夫です。お気軽にご質問ください。

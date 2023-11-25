@@ -1,0 +1,4 @@
+---
+title: "お問い合わせありがとうございました"
+image: /img/mainback.jpg
+---

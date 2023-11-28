@@ -37,7 +37,7 @@
 		  </div>
   
 		  <div class="col-sm-6 col-lg-3 col-xs-12">
-			<h4 class="section-title-sm font-weight-bold text-white mb-6">Useful Links</h4>
+			<h4 class="section-title-sm font-weight-bold text-white mb-6">コンテンツ</h4>
 			<ul class="list-unstyled">
 			  <li class="mb-4">
 				<a href="/">
@@ -47,6 +47,11 @@
 			  <li class="mb-4">
 				<a href="/post">
 				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>お知らせ
+				</a>
+			  </li>
+			  <li class="mb-4">
+				<a href="/reservation">
+				  <i class="fas fa-angle-double-right me-2" aria-hidden="true"></i>予約アプリの使い方
 				</a>
 			  </li>
 			  <li class="mb-4">
@@ -68,10 +73,11 @@
 			</ul>
 		  </div>
   
+		  <!--
 		  <div class="col-sm-6 col-lg-3 col-xs-12">
 			<h4 class="section-title-sm font-weight-bold text-white mb-6">お知らせ</h4>
 			<ul class="list-unstyled list-item-border-bottom">
-				{{ range first 3 (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
+				{{ range first 3 (where .Data.Pages "Type" "post") }}
 				<li class="mb-4 pb-4">
 					<div class="media">
 						<div class="media-body">
@@ -86,6 +92,7 @@
 				{{ end }}
 			</ul>
 		  </div>
+		  -->
 		</div>
 	  </div>
 	</div>

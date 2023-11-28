@@ -1,5 +1,6 @@
 ---
-title: "Great coffee with a conscience"
+title: "初心者でもできるようになる小学生向けバク転教室"
+description: "墨田区の錦糸町の小学生向けバク転教室です。駅徒歩７分。初心者から参加できます。バク転をしてみたいお子様のチャレンジをお待ちしています。1回毎の予約なので、他の習い事をしていても通いやすいです。少人数制なのでたくさん練習できます。"
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
 blurb:

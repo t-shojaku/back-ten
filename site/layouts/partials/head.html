@@ -1,7 +1,6 @@
 <head>
-
   <title>{{ .Title }} | {{ $.Site.Title }}</title>
-
+  <meta name="description" content="{{ .Description }}">
   <link href="/plugins/fontawesome-5.15.2/css/all.min.css" rel="stylesheet">
   <link href="/plugins/fontawesome-5.15.2/css/fontawesome.min.css" rel="stylesheet">
   <link href="/plugins/animate/animate.css" rel="stylesheet">
@@ -9,22 +8,17 @@
   {{ with $stylesheet.css }}
     <link href="{{ relURL . }}" rel="stylesheet">
   {{ end }}
-
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <base href="{{ $.Site.BaseURL }}">
-
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-  
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon128.png">
 	<link rel="icon" type="image/png" href="/img/favicon.png" sizes="32x32">
 	<meta name="theme-color" content="#fff">
-
   <!-- Open Graph Hugo https://gohugo.io/templates/internal/#open-graph -->
   {{ template "_internal/opengraph.html" . }}
-
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}

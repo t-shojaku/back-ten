@@ -1,0 +1,98 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+<section class="py-8 py-md-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+                <p>予約には、教室施設をお借りしているホイス・グレイシー柔術アカデミー東京で利用している予約システム「Spaces by Wix」を利用します。</p>
+                <p class="mb-7"><a class="btn btn-primary" href="https://www.rgjjtokyo.com/" target="_blank">予約サイトはこちらです</a></p>
+
+                <div class="media media-list-view bg-light mb-5">
+                    <span class="media-img">
+                        <img src="/img/res1.png" alt="Image">
+                    </span>
+                    <div class="media-body">
+                        <h3 class="mb-3 mb-lg-2 mb-xl-3"><span class="badge badge-rounded bg-info">Step.1</span> アカウントを作成する</h3>
+            
+                        <p class="text-justify mb-lg-2"><a href="https://www.rgjjtokyo.com/" target="_blank">予約サイト</a>で、いずれかのメニューをクリックすると、「会員登録」画面が表示されます。
+                            お名前とメールアドレス、ご希望のパスワードを記入して、「送信する」をクリックしてください。
+                            アナウンスに従ってアカウント作成を完了してください。<br>
+                            
+                            ＊アカウントは、予約システムを利用するためのアカウントであって、柔術のメンバーシップではありませんので、月会費がかかることはありません。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media media-list-view bg-light mb-5">
+                    <span class="media-img">
+                        <img src="/img/res2.png" alt="Image">
+                    </span>
+                    <div class="media-body">
+                        <h3 class="mb-3 mb-lg-2 mb-xl-3"><span class="badge badge-rounded bg-info">Step.2</span> 予約ページに移動する</h3>
+            
+                        <p class="text-justify mb-lg-2">アカウントを作成してログインしたら、「スケジュール＆予約」メニューをクリックしてください。
+                            カレンダーが表示される予約ページが開きます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media media-list-view bg-light mb-5">
+                    <span class="media-img">
+                        <img src="/img/res3.png" alt="Image">
+                    </span>
+                    <div class="media-body">
+                        <h3 class="mb-3 mb-lg-2 mb-xl-3"><span class="badge badge-rounded bg-info">Step.3</span> フィルタを使おう</h3>
+            
+                        <p class="text-justify mb-lg-2">フィルタという欄で、サービス「錦糸町キッズバク転教室！」を選択すると、スケジュールが絞り込まれて予約が楽になります。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="media media-list-view bg-light mb-8">
+                    <span class="media-img">
+                        <img src="/img/res4.png" alt="Image">
+                    </span>
+                    <div class="media-body">
+                        <h3 class="mb-3 mb-lg-2 mb-xl-3"><span class="badge badge-rounded bg-info">Step.4</span> 空いている枠を予約する</h3>
+            
+                        <p class="text-justify mb-lg-2">ご希望日時のレッスンの「予約」ボタンをクリックすると、予約画面になります。<br>
+                            お支払い方法は１回分を支払うか、<strong>回数チケットがあれば「プランを購入」のラジオボタンをチェック</strong>してください。<br>
+                            右に「カートに追加」か「今すぐ予約」のボタンがあるので、いずれかを選んでください。<br>
+                            <strong>クーポンがある場合は「カートに追加」をして、カート画面でクーポンを適用してください。</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-8 py-md-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                
+                <h3 class="mb-5">予約アプリをスマホにインストールすると、より便利になります</h3>
+                <div class="text-white rounded bg-info font-weight-medium px-6 py-3 mb-3">Step.1 予約アプリをインストール</div>
+                <div class="text-muted ms-4 mb-5">
+                    予約には、教室施設をお借りしているホイス・グレイシー柔術アカデミー東京で利用している予約アプリ「Spaces by Wix」を利用します。まずはアプリをインストールしてください。<br>
+
+                    <a class="btn btn-primary" href="https://wix.to/VGyWDhs?ref=cl" target="_blank">予約アプリのダウンロードはこちら</a>
+                </div>
+
+                <div class="text-white rounded bg-info font-weight-medium px-6 py-3 mb-3">Step.2 アプリでジムに参加する</div>
+                <div class="text-muted ms-4 mb-5">
+                    「Spaces by Wix」アプリは世界中のジムやスクールが導入しているので、当ジムを選択して参加する必要があります。<br>
+                    アプリインストール後の画面で下部に招待コードを入力する欄があるので、招待コード「<strong>8EOCWY</strong>（8だけ数字であとはアルファベットです。小文字でもOK）」を入力すると、「ホイス・グレーシー東京Memberアプリ」が検索されるので、「参加する」ボタンをクリックしてください。その後Wixアカウントでログインしてください。
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

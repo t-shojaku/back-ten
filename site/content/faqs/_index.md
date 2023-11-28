@@ -1,5 +1,6 @@
 ---
-title: "よくあるご質問"
+title: "バク転教室によくあるご質問"
+description: "バク転教室によせられるご質問をまとめました。バク転習得について疑問がある方はご覧ください。"
 image: /img/mainback.jpg
 values:
   - heading: "どれくらいでバク転を習得できますか？"

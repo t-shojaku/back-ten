@@ -6,11 +6,11 @@
 			<div class="position-relative">
         {{ if .Params.image }}<img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
 				<div class="card-img-overlay">
-          <span class="badge badge-rounded bg-primary">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+          <span class="badge badge-rounded bg-purple">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
         </div>
 			</div>
-			<div class="card-body border-top-5 px-3 rounded-bottom border-primary">
-				<h1 class="card-title text-primary mb-5">{{.Title}}</h1>
+			<div class="card-body border-top-5 px-3 rounded-bottom border-purple">
+				<h1 class="card-title text-purple mb-5">{{.Title}}</h1>
 				<p class="card-text text-justify mb-6">{{ .Description }}</p>
         
 

@@ -1,17 +1,16 @@
 ---
-title: "バク転のために自宅でできる運動を紹介します"
+title: バク転のために自宅でできる運動を紹介します
 date: 2023-11-10T15:04:10.000Z
 description: バク転のために自宅でできる効果的な運動を紹介します。
 image: /img/blog_default.jpg
 ---
-
 バク転トレーナーのTETSUYAです。
 
 バク転をこれから始めてみたい方、バク転を練習中の方で伸び悩んでいる方に、自宅でできる運動を紹介します。
 
 バク転は、予備動作から、ジャンプして倒立、そして手を突き放して着地、という流れの中で、それぞれに違う動きが含まれています。\
-とれも短い時間の中でそれらの動きを組み合わせて行う技なので、バク転の練習で細かいポイントに気をつけるのは難しいです。\
-そこで、バク転を細かい動きに分解して練習できる動画を公開しています。
+とても短い時間の中でそれらの動きを組み合わせて行う技なので、バク転の練習で細かいポイントに気をつけるのは難しいです。\
+そこで、バク転を細かい動きに分解して練習できる動画を公開しています。動画内の運動は以下の16種類。バク転始めたての子供向けに、負荷の高くない運動をピックアップしました。
 
 1.ブリッジ\
 手を使わないで行うブリッジです。ポイントは足の裏側を使って押すことです。おへそから突き出すようにブリッジすると、バク転の回転を止めてしまいますので、足で押し出すようにブリッジしましょう。
@@ -63,14 +62,12 @@ image: /img/blog_default.jpg
 16.壁倒立\
 倒立も、ヒジや腰など姿勢に気をつけて、きれいな姿勢でできるようにしましょう。
 
-
 以上のような運動を、バク転教室と並行して週に2度は繰り返すことをおすすめします。\
 動きを身につけ、その動きに必要な筋力をつけていけば、バク転習得をブーストできます。
 
 動画はこちらで紹介しています。\
-https://www.youtube.com/watch?v=eHyEu5Sx6gc
+https://www.youtube.com/watch?v=eHyEu5Sx6gc\
+<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FeHyEu5Sx6gc%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeHyEu5Sx6gc&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeHyEu5Sx6gc%2Fhqdefault.jpg&amp;key=647b63d8c58a4c27a568a4288a34ed74&amp;type=text%2Fhtml&amp;schema=youtube" width="500" height="281" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
 
 また、バク転向けのストレッチ動画もあるので、そちらもあわせて御覧ください。\
 https://www.youtube.com/watch?v=PAaULLP_pAQ
-
-

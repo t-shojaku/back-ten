@@ -8,23 +8,18 @@
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center align-items-center">
 
-                {{ if .Paginator.HasNext }}
-                <li class="page-item"><a class="page-link" href="{{ .Paginator.Next.URL }}">
+                {{ if .Paginator.HasPrev }}
+                <li class="page-item"><a class="page-link" href="{{ .Paginator.Prev.URL }}">
                     <i class="fa fa-arrow-left mr-1" aria-hidden="true"></i>
                     Prev
                 </a>
                 </li>
                 {{ end }}
 
+                <!-- <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>-->
 
-
-                <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
-                <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
-                <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
-                <li class="page-item"><a class="page-link" href="javascript:void(0)">...</a></li>
-                <li class="page-item"><a class="page-link" href="javascript:void(0)">15</a></li>
-                {{ if .Paginator.HasPrev }}
-                <li class="page-item"><a class="page-link" href="{{ .Paginator.Prev.URL }}">
+                {{ if .Paginator.HasNext }}
+                <li class="page-item"><a class="page-link" href="{{ .Paginator.Next.URL }}">
                     Next <i class="fa fa-arrow-right ml-1" aria-hidden="true"></i>
                 </a>
                 </li>

@@ -66,8 +66,7 @@ image: /img/blog_default.jpg
 動きを身につけ、その動きに必要な筋力をつけていけば、バク転習得をブーストできます。
 
 動画はこちらで紹介しています。\
-https://www.youtube.com/watch?v=eHyEu5Sx6gc\
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FeHyEu5Sx6gc%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeHyEu5Sx6gc&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeHyEu5Sx6gc%2Fhqdefault.jpg&amp;key=647b63d8c58a4c27a568a4288a34ed74&amp;type=text%2Fhtml&amp;schema=youtube" width="500" height="281" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
+https://www.youtube.com/watch?v=eHyEu5Sx6gc
 
 また、バク転向けのストレッチ動画もあるので、そちらもあわせて御覧ください。\
 https://www.youtube.com/watch?v=PAaULLP_pAQ

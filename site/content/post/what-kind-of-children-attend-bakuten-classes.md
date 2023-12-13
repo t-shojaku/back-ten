@@ -1,6 +1,6 @@
 ---
 title: バク転教室にはどんな子が通っているの？
-date: 2023-12-11T:20:00.000Z
+date: 2023-12-11T15:00:00.000Z
 description: バク転教室には、どんな子が通っているのでしょうか。
 image: /img/blog_default.jpg
 ---

@@ -19,6 +19,7 @@
 	<meta name="theme-color" content="#fff">
   <!-- Open Graph Hugo https://gohugo.io/templates/internal/#open-graph -->
   {{ template "_internal/opengraph.html" . }}
+  {{- partial "schema.html" . -}}
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}

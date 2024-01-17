@@ -1,5 +1,5 @@
 ---
-title: what-ability-will-be-developed
+title: バク転でどんな能力が育つの？
 date: 2024-01-17T05:14:29.113Z
 description: バク転の習得を通して、どのような能力が育つかというお話です。
 image: img/brain.jpg

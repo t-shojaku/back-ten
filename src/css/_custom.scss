@@ -23,3 +23,24 @@
 }
 
 .embedly-embed{width:100%;}
+
+blockquote{
+  position: relative;
+  padding: 8px 15px;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  background: #eeeeee;
+}
+blockquote:before{
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: 11px;
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  color: #eeeeee;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 900;
+}

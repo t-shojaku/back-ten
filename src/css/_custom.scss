@@ -24,7 +24,7 @@
 
 .embedly-embed{width:100%;}
 
-blockquote{
+#blog_post blockquote{
   position: relative;
   padding: 8px 15px;
   margin-top: 2.5em;
@@ -32,7 +32,7 @@ blockquote{
   box-sizing: border-box;
   background: #eeeeee;
 }
-blockquote:before{
+#blog_post blockquote:before{
   display: inline-block;
   position: absolute;
   top: -30px;

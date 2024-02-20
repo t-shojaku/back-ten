@@ -1,5 +1,5 @@
 ---
-title: how-long-need-to-learn-backten
+title: バク転は1時間でできるようになる？
 date: 2024-02-19T03:10:20.522Z
 description: バク転の習得は1日でできるのでしょうか、バク転トレーナーの見解をお伝えします。
 image: img/2001569_m.jpg

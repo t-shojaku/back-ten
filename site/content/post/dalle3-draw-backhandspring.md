@@ -1,5 +1,5 @@
 ---
-title: dalle3-draw-backhandspring
+title: Dall-E3にバク転教室の絵を描いてもらった
 date: 2024-03-05T00:39:40.941Z
 description: 話題のDall-E3にバク転教室の絵を描いてもらいました
 image: img/eedda16268ac428c88f6b2df6fcfb973_comfyui_186767_のコピー.png

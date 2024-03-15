@@ -2,7 +2,6 @@
 title: "バク転教室が始まりました。"
 date: 2023-03-10T15:04:10.000Z
 description: 錦糸町駅から徒歩7分の場所に小学生向けのバク転教室ができました。
-categories: [ "お知らせ" ]
 image: /img/blog_default.jpg
 ---
 

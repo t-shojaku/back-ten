@@ -2,7 +2,6 @@
 title: 小学生がバク転を習うメリットをChatGPTに聞いてみた！
 date: 2024-01-30T23:06:24.614Z
 description: 最近何かと話題のAI「ChatGPT」に、バク転を習うメリットを聞いてみました。
-categories: [ "お知らせ" ]
 image: img/1946394_m.jpg
 ---
 こんにちは。\

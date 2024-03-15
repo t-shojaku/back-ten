@@ -35,7 +35,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": {{ index .Params.categories 0 }},
+            "name": "お知らせ",
             "item": {{ path.Join (.Site.BaseURL) ("/post/" | relLangURL) (index .Params.categories 0 | urlize) }}
           },
           {

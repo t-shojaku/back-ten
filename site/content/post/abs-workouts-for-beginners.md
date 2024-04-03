@@ -83,4 +83,5 @@ https://youtu.be/xbGPq5WLslM\
 また、下は音楽にあわせて、楽しく腹筋を鍛えられる動画です。\
 こちらもぜひ御覧ください。\
 【小学生6分夏トレ】夏休みの間に強い腹筋を手に入れよう！\
+{{< youtube nte0nRj171k displaymovie >}}
 https://youtu.be/nte0nRj171k

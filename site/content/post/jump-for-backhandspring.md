@@ -11,6 +11,7 @@ image: img/スクリーンショット-2024-02-23-16.54.44.jpg
 そこで、お家でもできる「バク転のためのジャンプの仕方をつかむための練習」を紹介します。
 
 動画もありますので、あわせて御覧ください。\
+{{< youtube zQsmskSxUh8 displaymovie >}}
 https://youtu.be/zQsmskSxUh8
 
 １）つま先を使ってジャンプしよう

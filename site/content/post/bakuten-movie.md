@@ -14,6 +14,7 @@ image: /img/blog_default.jpg
 ご自宅で繰り返し練習を行うことで、バク転に必要な動きや筋力を身に着けてしまおうという寸法です。
 
 こちらに動画でも説明をしています。合わせてご覧ください。\
+{{< youtube eHyEu5Sx6gc displaymovie >}}
 https://www.youtube.com/watch?v=eHyEu5Sx6gc
 
 **1.ブリッジ**\
@@ -100,10 +101,6 @@ https://www.youtube.com/watch?v=eHyEu5Sx6gc
 
 以上のような運動を、バク転教室と並行して週に2度は繰り返して練習することをおすすめします。\
 動きを身につけ、その動きに必要な筋力をつけていけば、バク転の習得を短縮できます。
-
-動画はこちらで紹介しています。\
-{{< youtube eHyEu5Sx6gc displaymovie >}}
-https://www.youtube.com/watch?v=eHyEu5Sx6gc
 
 
 また、バク転向けのストレッチ動画もあるので、そちらもあわせて御覧ください。\

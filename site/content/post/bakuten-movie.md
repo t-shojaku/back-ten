@@ -102,7 +102,10 @@ https://www.youtube.com/watch?v=eHyEu5Sx6gc
 動きを身につけ、その動きに必要な筋力をつけていけば、バク転の習得を短縮できます。
 
 動画はこちらで紹介しています。\
+{{< youtube eHyEu5Sx6gc displaymovie >}}
 https://www.youtube.com/watch?v=eHyEu5Sx6gc
 
+
 また、バク転向けのストレッチ動画もあるので、そちらもあわせて御覧ください。\
+{{< youtube PAaULLP_pAQ displaymovie >}}
 https://www.youtube.com/watch?v=PAaULLP_pAQ

@@ -13,6 +13,15 @@
 #mainimage{
   background: url(img/mainback.jpg) center center no-repeat;
 }
+.displaymovie{
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
+}
+.displaymovie iframe{
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;
+}
 @media (max-width: 1200px){
   .fs-5{
     font-size: 0.8rem !important;

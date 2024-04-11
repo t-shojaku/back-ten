@@ -1,7 +1,5 @@
-baseurl = "https://kinshicho.back-ten.com/"
 languageCode = "ja"
 languageLang = "ja"
-title = "錦糸町キッズバク転教室！"
 defaultContentLanguage = "ja"
 
 # RSS, categories and tags disabled for an easy start

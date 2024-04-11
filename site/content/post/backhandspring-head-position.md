@@ -1,5 +1,5 @@
 ---
-title: バク転での頭の使い方
+title: 初心者必見：バク転での頭の使い方
 date: 2024-04-11T00:06:04.516Z
 description: バク転がうまくできない場合、頭で回そうとしてしまっている場合があります。
 image: img/blog_default.jpg

@@ -1,5 +1,5 @@
 ---
-title: バク転での腕の回し方
+title: 初心者必見：バク転での腕の回し方
 date: 2024-04-02T23:29:57.417Z
 description: バク転がうまく回転しない場合、腕の回し方が間違えている場合があります。
 image: img/blog_default.jpg

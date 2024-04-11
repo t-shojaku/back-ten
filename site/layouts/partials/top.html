@@ -184,7 +184,6 @@
         </div>
     </section>
 
-
     <section class="py-7 py-md-10">
         <div class="section-title justify-content-center mb-4 mb-md-8 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <span class="shape shape-left bg-info"></span>
@@ -223,9 +222,9 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
-      <section class="py-7 py-md-10">
+    <section class="py-7 py-md-10">
         <div class="section-title justify-content-center mb-4 mb-md-8 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <span class="shape shape-left bg-info"></span>
             <h2 class="text-danger">バク転教室情報</h2>
@@ -351,7 +350,7 @@
     </section>
 
 
-    <section class="pb-10">
+    <section class="py-7 py-md-10">
         <div class="container">
             <div class="section-title justify-content-center mb-5 mb-md-8">
                 <span class="shape shape-left bg-info"></span>
@@ -423,7 +422,7 @@
         </div>
     </section>
 
-    <section class="py-9 bg-parallax" style="background-image: url(img/background-img-1.jpg);">
+    <section class="py-7 py-md-10 bg-parallax" style="background-image: url(img/background-img-1.jpg);">
         <div class="container">
             <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                 <div class="section-title justify-content-center">
@@ -439,7 +438,36 @@
         </div>
     </section>
 
-    <section class="pt-10 my-md-5">
+    <section class="py-7 py-md-10">
+        <div class="container">
+            <div class="section-title justify-content-center mb-5 mb-md-8">
+                <span class="shape shape-left bg-info"></span>
+                <h2 class="text-danger">お知らせ・お役立ち情報</h2>
+                <span class="shape shape-right bg-info"></span>
+            </div>
+            <div class="row">
+                {{ range (.Paginator 6).Pages.ByPublishDate.Reverse }}
+                    <div class="col-lg-6">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <a href="{{ .RelPermalink }}">{{ if .Params.image }}<img src="{{ .Params.image }}" class="w-100 rounded-start lazyestload" data-src="{{ .Params.image }}" alt="{{ .Title }}">{{ end }}</a>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <a href="{{ .RelPermalink }}"><h5 class="card-title">{{ .Title }}</h5></a>
+                                        <p class="card-text"><small class="text-muted">{{ .Date.Format "2006-01-02" }}</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-7 py-md-10">
         <div class="container">
             <div class="section-title justify-content-center mb-5 mb-md-8">
                 <span class="shape shape-left bg-info"></span>

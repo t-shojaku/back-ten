@@ -1,0 +1,16 @@
+languageCode = "ja"
+languageLang = "ja"
+defaultContentLanguage = "ja"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[params]
+images = ["img/og-image.jpg"]
+authorlogo = "/img/authorlogo.png"
+organizationname="錦糸町キッズバク転教室！"
+twitter="kids_backten"
+[params.author]
+name = "TETSUYA"

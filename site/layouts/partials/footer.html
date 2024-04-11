@@ -76,26 +76,23 @@
 			</ul>
 		  </div>
   
-		  <!--
 		  <div class="col-sm-6 col-lg-3 col-xs-12">
 			<h4 class="section-title-sm font-weight-bold text-white mb-6">お知らせ</h4>
 			<ul class="list-unstyled list-item-border-bottom">
-				{{ range first 3 (where .Data.Pages "Type" "post") }}
+				{{ range first 3 (where .Site.Pages "Type" "post") }}
 				<li class="mb-4 pb-4">
 					<div class="media">
 						<div class="media-body">
-						<h5 class="line-hight-16 mb-1">
-							<a class="font-base font-size-14" href="{{ .RelPermalink }}">{{ .Title }}</a>
-						</h5>
-						<time class="text-white">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+							<h5 class="line-hight-16 mb-1">
+								<a class="font-base font-size-14" href="{{ .RelPermalink }}">{{ .Title }}</a>
+							</h5>
+							<time class="text-white">{{ .Date.Format "2006-01-02" }}</time>
 						</div>
 					</div>
 				</li>
-
 				{{ end }}
 			</ul>
 		  </div>
-		  -->
 		</div>
 	  </div>
 	</div>

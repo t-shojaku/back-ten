@@ -1,60 +1,101 @@
 <script type="application/ld+json">
-    [
-        {{ if .IsPage }}
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": {{ .Title }},
-          "image": {{ .Params.image | absURL }},
-          "datePublished": {{ .PublishDate }},
-          "dateModified": {{ .Lastmod }},
-          "author": {
-            "@type": "Person",
-            "name": {{ .Site.Params.author.name }}
-          },
-          "mainEntityOfPage": { "@type": "WebPage" },
-          "publisher": {
-            "@type": "Organization",
-            "name": {{ .Site.Params.organizationname }},
-            "logo": {
-              "@type": "ImageObject",
-              "url": {{ .Site.Params.authorlogo }}
-            }
-          },
-          "description": {{ .Summary | plainify | safeHTML }}
+  [
+    {{ if .IsPage }}
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": {{ .Title }},
+        "image": {{ .Params.image | absURL }},
+        "datePublished": {{ .PublishDate }},
+        "dateModified": {{ .Lastmod }},
+        "author": {
+          "@type": "Person",
+          "name": {{ .Site.Params.author.name }}
         },
-        {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": {{ .Site.Title }},
-            "item": {{ .Site.BaseURL }}
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "お知らせ",
-            "item": {{ path.Join (.Site.BaseURL) ("/post/" | relLangURL) (index .Params.categories 0 | urlize) }}
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": {{ .Title }},
-            "item": {{ path.Join (.Site.BaseURL) (index .RelPermalink | urlize) }}
-          }
-          ]
-        },
-        {{ end }}
-        {
-          "@context": "https://schema.org",
+        "mainEntityOfPage": { "@type": "WebPage" },
+        "publisher": {
           "@type": "Organization",
           "name": {{ .Site.Params.organizationname }},
-          "url": {{ .Site.BaseURL }},
-          "sameAs": [
-            "https://twitter.com/{{ .Site.Params.twitter }}"
-          ]
+          "logo": {
+            "@type": "ImageObject",
+            "url": {{ .Site.Params.authorlogo }}
+          }
+        },
+        "description": {{ .Summary | plainify | safeHTML }}
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": {{ .Site.Title }},
+          "item": {{ .Site.BaseURL }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "お知らせ",
+          "item": {{ path.Join (.Site.BaseURL) ("/post/" | relLangURL) (index .Params.categories 0 | urlize) }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ .Title }},
+          "item": {{ path.Join (.Site.BaseURL) (index .RelPermalink | urlize) }}
         }
-    ]
-    </script>
+        ]
+      },
+    {{ end }}
+    {{ if .IsHome }}
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "錦糸町キッズバク転教室！",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "緑4-34-1",
+          "addressLocality": "墨田区",
+          "addressRegion": "東京",
+          "postalCode": "130-0021",
+          "addressCountry": "JP"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": {
+              "@type": "DayOfWeek",
+              "name": "水"
+            },
+            "opens": "17:00",
+            "closes": "19:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": {
+              "@type": "DayOfWeek",
+              "name": "土"
+            },
+            "opens": "15:00",
+            "closes": "17:00"
+          }
+        ],
+        "geo":{
+          "@type":"GeoCoordinates",
+          "latitude":35.6956752,
+          "longitude":139.8041524
+        },
+        "url":"https://kinshicho.back-ten.com/"
+      },
+    {{ end }}
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": {{ .Site.Params.organizationname }},
+        "url": {{ .Site.BaseURL }},
+        "sameAs": [
+          "https://twitter.com/{{ .Site.Params.twitter }}"
+        ]
+      }
+  ]
+</script>

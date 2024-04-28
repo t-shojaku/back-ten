@@ -9,6 +9,10 @@ contact_entries:
   - heading: 営業日
     text: "水曜17時18時　土曜15時16時　祝日休"
     icon: "far fa-calendar-alt"
+sitemap:
+  changefreq: never
+  disable: true
+  priority: 0.0
 ---
 
 この度はバク転教室にご興味をいただきありがとうございます。

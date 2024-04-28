@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ range .Data.Pages }}
-  {{ if (or (in .Permalink "/contact/") (in .Permalink "/privacy/")) }}
+  {{ if or (or (in .Permalink "/contact/") (in .Permalink "/privacy/")) (in .Permalink "/sent_done/")}}
   {{ else }}
   <url>
     <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}

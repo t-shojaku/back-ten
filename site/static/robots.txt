@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /contact/
+Sitemap: https://kinshicho.back-ten.com/sitemap.xml

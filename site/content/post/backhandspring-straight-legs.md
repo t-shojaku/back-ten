@@ -1,5 +1,5 @@
 ---
-title: backhandspring-straight-legs
+title: 初心者必見：バク転では足を伸ばしきろう
 date: 2024-05-16T01:08:06.398Z
 description: バク転を習ってるとき、バク転で足をしっかりと伸ばす理由について解説します。
 image: img/blog_default.jpg

@@ -1,5 +1,5 @@
 ---
-title: increase-self-confidence
+title: 成功体験を積み重ねる！アクロバット教室での成長！
 date: 2024-05-20T23:24:22.832Z
 description: バク転教室で自己肯定感を高めよう。
 image: img/1946394_m.jpg

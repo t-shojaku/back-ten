@@ -2,6 +2,7 @@
 title: increase-self-confidence
 date: 2024-05-20T23:24:22.832Z
 description: バク転教室で自己肯定感を高めよう。
+image: img/1946394_m.jpg
 ---
 こんにちは。バク転トレーナーのTETSUYAです。
 

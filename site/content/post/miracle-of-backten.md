@@ -1,5 +1,5 @@
 ---
-title: miracle-of-backten
+title: 短編小説：バク転の奇跡
 date: 2024-05-21T23:55:50.963Z
 description: 運動が苦手だった優太が、バク転教室に出会って成長していく物語
 image: img/1946394_m.jpg

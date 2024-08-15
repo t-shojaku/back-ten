@@ -1,5 +1,5 @@
 ---
-title: air-tumbling
+title: エアートラックを導入！マット運動がより楽しくなります！
 date: 2024-08-15T01:01:28.417Z
 description: 錦糸町のバク転教室に、エアートラックを導入しました。
 image: img/img_3764.jpg

@@ -24,5 +24,7 @@ products:
 values:
     heading: Our values
     text: バリュー
+sitemap:
+    priority: 1
+    changefreq: weekly
 ---
-

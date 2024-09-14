@@ -18,7 +18,11 @@ image: img/3079993_s.jpg
 陸上では走るという運動が主体ですが、走るために上半身を使わないわけではありません。\
 上半身の強化と重心コントロールの向上を行える倒立は、陸上でも役に立つはずです。
 
-陸上だけではありません、あらゆるスポーツで倒立は有効ですし、実際にトレーニングに取り入れられています。
+陸上だけではありません、あらゆるスポーツで倒立は有効ですし、実際にトレーニングに取り入れられています。\
+[ホッケー藤本一平選手](https://ippeifujimoto.com/handstand-vertex)\
+[フィギュアスケート紀平梨花選手](https://x.com/rika_kihira/status/1548130058220761088?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1548130058220761088%7Ctwgr%5E71ab5c20073143ebfc1e355e8fde3eb01da9d642%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fthedigestweb.com%2F%2Fid%3D58281)\
+[野球　中京大中京](https://full-count.jp/2021/07/18/post1110573/2/)
+
 
 そして大事なことですが、倒立は、**そんなに難しくありません。**
 

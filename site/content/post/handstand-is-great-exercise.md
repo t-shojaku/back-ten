@@ -19,9 +19,10 @@ image: img/3079993_s.jpg
 上半身の強化と重心コントロールの向上を行える倒立は、陸上でも役に立つはずです。
 
 陸上だけではありません、あらゆるスポーツで倒立は有効ですし、実際にトレーニングに取り入れられています。\
-[ホッケー藤本一平選手](https://ippeifujimoto.com/handstand-vertex)\
-[フィギュアスケート紀平梨花選手](https://x.com/rika_kihira/status/1548130058220761088)\
-[野球　中京大中京](https://full-count.jp/2021/07/18/post1110573/2/)
+[ホッケー 藤本一平選手](https://ippeifujimoto.com/handstand-vertex)\
+[フィギュアスケート 紀平梨花選手](https://x.com/rika_kihira/status/1548130058220761088)\
+[野球　中京大中京](https://full-count.jp/2021/07/18/post1110573/2/)\
+[テニス アンディ・マリー選手](https://news.livedoor.com/article/detail/15670233/)
 
 そして大事なことですが、倒立は、**そんなに難しくありません。**
 

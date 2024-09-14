@@ -20,7 +20,7 @@ image: img/3079993_s.jpg
 
 陸上だけではありません、あらゆるスポーツで倒立は有効ですし、実際にトレーニングに取り入れられています。\
 [ホッケー藤本一平選手](https://ippeifujimoto.com/handstand-vertex)\
-[フィギュアスケート紀平梨花選手](https://x.com/rika_kihira/status/1548130058220761088?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1548130058220761088%7Ctwgr%5E71ab5c20073143ebfc1e355e8fde3eb01da9d642%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fthedigestweb.com%2F%2Fid%3D58281)\
+[フィギュアスケート紀平梨花選手](https://x.com/rika_kihira/status/1548130058220761088)\
 [野球　中京大中京](https://full-count.jp/2021/07/18/post1110573/2/)
 
 

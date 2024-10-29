@@ -1,5 +1,5 @@
 ---
-title: royce-gracie-jiujitsu-academy-tokyo
+title: ホイス・グレイシー柔術アカデミー東京を紹介します
 date: 2024-10-29T00:29:53.457Z
 description: 錦糸町キッズバク転教室を開講しているジム「ホイス・グレイシー柔術アカデミー東京」の紹介をします。
 image: img/jiujitsu.jpg

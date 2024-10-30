@@ -1,5 +1,5 @@
 ---
-title: sometimes-need-to-stop-or-stepback
+title: ときには立ち止まったり、基本に戻ったりしましょう。
 date: 2024-10-29T23:07:47.544Z
 description: スポーツではときには立ち止まってみたり、戻ってみたりすることが大切という話です
 image: img/1946394_m.jpg
